@@ -58,7 +58,7 @@ This API is perfect for simple taks, giving you the ability to CRUD on users and
     - **`TOKEN_SECRET`** it is a base64 token used to create a JWT that will be used to authorize the administrator to use the system operations.
 9. After setting all the variables in the **`.env`** file, you only need to run the API. I will teach you below.
 
-## Usage ⏯
+## Usage ⚡
 After the whole process of setup, now it's time to put this API to run! There are 6 different commands to run the server in specific environments.
 <br>
 **REMEMBER: DON'T FORGET TO CHANGE THE NODE_ENV ON THE `.env` FILE BEFORE RUNNING THESE COMMANDS!**
@@ -80,7 +80,7 @@ All comands below only work in the syntax: **`npm run <command>`** (Without the 
 
 **Tip:** If you don't know which to use, just start with **`npm run dev:setup`** and then **`npm run dev:start`**.
 
-## Routes 🔄
+## Routes 🌐
 The routes below are used to take information from and to the API resources.
 <br>
 **Note:** Before all routes below it's present the **`/api`** route.
@@ -106,6 +106,9 @@ The routes below are used to take information from and to the API resources.
 | **GET** | **`/usersof/:address_id`** | Show all users associated to a specific address | **HOMES** |
 | **POST** | **`/homes/:user_id/:address_id`** | Associate an user to an address. | **HOMES** |
 | **DELETE** | **`/homes/:user_id/:address_id`** | Dissociate an user from an address. | **HOMES** |
+
+## Testing 👁‍🗨
+A file with requests for all routes can be found [here](/api-requests.json), to be imported by Insomnia or other REST clients.
 
 ## Future Updates ♻
 Future updates include creating more routes related to homes, routes to search in users and addresses using filers, adding the option to delete a adminstrator and also 
