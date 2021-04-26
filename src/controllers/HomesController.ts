@@ -57,7 +57,7 @@ async function associate(request: Request, response: Response) {
 }
 
 /**
- * Dessociates an User from an Address, if both exist and the home also exists. IF errors occur
+ * Dissociates an User from an Address, if both exist and the home also exists. IF errors occur
  * during the process, messages will be sent as part of the response.
  * 
  * @param request The request sent to the backend.
@@ -87,12 +87,12 @@ async function deassociate(request: Request, response: Response) {
 					try {
 						await db('homes').where('user_id', user_id).andWhere('address_id', address_id).first().delete();
 
-						result = response.status(200).json({ message: `User with ID ${user_id} and Address with ID ${address_id} were deassociated.` })
+						result = response.status(200).json({ message: `User with ID ${user_id} and Address with ID ${address_id} were dissociated.` })
 					}
 					catch (err) {
 						console.error(err);
 
-						result = response.status(200).json({ message: `Error when trying to deassociate Home with User ID ${user_id} and Address ID ${address_id}.` })
+						result = response.status(200).json({ message: `Error when trying to dissociate Home with User ID ${user_id} and Address ID ${address_id}.` })
 					}
 				}
 			}

@@ -50,7 +50,7 @@ routes.get('/addressesof/:user_id', verify, HomesController.showAddressesOfUser)
 routes.get('/usersof/:address_id', verify, HomesController.showUsersOfAddress);
 // Associate an User without address to a specific address.
 routes.post('/homes/:user_id/:address_id', verify, HomesController.associate);
-// Deassociate an User from a specific Address.
+// Dissociate an User from a specific Address.
 routes.delete('/homes/:user_id/:address_id', verify, HomesController.deassociate);
 
 export default routes;
