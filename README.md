@@ -27,6 +27,7 @@ This API is perfect for simple taks, giving you the ability to CRUD on users and
     - On Windows: **`echo.> .env`**
     - On Unix based Systems: **`touch .env`**
 7. Paste the blank **`.env`** variables below inside the **`.env`** file you created. Don't worry about this now, you will change and understand them:
+
     ```
     API_HOST=127.0.0.1
     API_PORT=3333
