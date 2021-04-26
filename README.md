@@ -5,7 +5,7 @@
 
 ## Main Features 👥 🏡
 
-This API is perfect for simple taks, giving you the ability to CRUD on users and address, and all the responses use the JSON format.
+This API is perfect for simple taks, giving you the ability to CRUD on users and addresses, and all the responses use the JSON format.
 * **Authentication:** The administrator of the system must be logged in before other actions can be performed.
 * **Authorization:** The login process generates a JWT to the response header, which can be used to grant access to the users, addresses and operations related to homes.
 * **Entities:** To create, delete, update, list all and show one of the users or addresses is simple. Just add the route **`/users`** or **`/addresses`** and the **`/:id`** when it's needed.
