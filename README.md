@@ -1,6 +1,6 @@
 # Authorization API 🔐
 ---
-## A RESTful API made using [Node.js](https://nodejs.org/) - [TypeScript](https://www.typescriptlang.org/) - [PostgreSQL](https://www.postgresql.org/) - [Express](http://expressjs.com/) - [Knex](http://knexjs.org/) - [JWT](https://jwt.io/)
+## A REST API made with [Node.js](https://nodejs.org/) - [TypeScript](https://www.typescriptlang.org/) - [PostgreSQL](https://www.postgresql.org/) - [Express](http://expressjs.com/) - [Knex](http://knexjs.org/) - [JWT](https://jwt.io/)
 <br>
 
 ## Main Features 👥 🏡
